@@ -1,0 +1,53 @@
+/*Normalizing the default js*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+aside,
+article {
+    font-family: roboto, "Fira Sans", sans-serif;
+    color: #fff;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fdfdfd;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td,
+th {
+    padding: 0;
+}

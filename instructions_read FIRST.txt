@@ -1,0 +1,16 @@
+1> install xampp..
+
+2> reset mysql root password.go through this site.. 
+(http://veerasundar.com/blog/2009/01/how-to-change-the-root-password-for-mysql-in-xampp/)
+
+3> put neediehave folder into -c drive -xampp folder -htdocs  >>> paste folder in there(C:\xampp\htdocs\NeedieHave)
+
+4> now start xampp
+5> start mysql,tomcat,apache
+6> start internet explorer. go to http://localhost/phpmyadmin/
+now import neediehave.sql from neediehave/database folder
+
+7>  now in new tab type http://localhost/neediehave/#/front
+
+please do this steps today and let me know if its not working.........enjoy 
+and start working further,

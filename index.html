@@ -1,0 +1,64 @@
+<!doctype html>
+<html ng-app="needieHave">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NeedieHave</title>
+    <!--Load awesome font from CDN -->
+
+    <!--Load Twitter Bootstrap from CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--Load ont-awesome.min.css for icons-->
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="styles/animate.min.css" type="text/css">
+    <!--Load Style.css-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body ng-controller="navController">
+    <div class="wrapper">
+        <header class="box site-header">
+            <div class="container">
+                <div ng-include src="navTemplate.url"></div>
+            </div>
+        </header>
+        <aside>
+
+        </aside>
+        <div ui-view class="view1"></div>
+        <footer class="box site-footer">
+            <p>Computer Science Capstone Course CS-595(G)</p>
+        </footer>
+    </div>
+
+    <!--Load jquery from CDN -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <!--Load Twitter Bootstrap script from CDN -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <!--Load wow.js  -->
+    <script src="scripts/jquery.easing.min.js"></script>
+    <script src="scripts/jquery.fittext.js"></script>
+    <script src="scripts/wow.min.js"></script>
+
+    <!--Load Angularjs from CDN -->
+
+    <script src="https://code.angularjs.org/1.4.0-rc.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/routes.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/directives.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
